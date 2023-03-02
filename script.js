@@ -11,7 +11,7 @@ buttonSubmit.addEventListener("click", (e) => {
 })
 
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 function SendQuestion() {
   var sQuestion = inputQuestion.value;
@@ -51,7 +51,7 @@ function SendQuestion() {
         inputQuestion.focus()
     })
 
-    if (result.value) result.value += "\n\n\n";
+    if (result.value) result.value += "\n\n";
 
   result.value += `Eu: ${sQuestion}`;
   inputQuestion.value = "Carregando, aguarde...";
