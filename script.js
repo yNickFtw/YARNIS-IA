@@ -11,7 +11,7 @@ buttonSubmit.addEventListener("click", (e) => {
 })
 
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 function SendQuestion() {
   var sQuestion = inputQuestion.value;
