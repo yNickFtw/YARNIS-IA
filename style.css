@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    color: #fff;
 }
 
 body {
@@ -23,6 +24,10 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
+}
+
+.content h1 {
+    text-align: center;
 }
 
 textarea {
@@ -57,6 +62,21 @@ textarea:focus {
     border: 1px solid #8257e7;
 }
 
-@media screen and (max-width: 968px) {
+footer {
+    text-align: center;
+}
 
+.container-social-media {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-items a {
+    text-decoration: none;
+}
+
+.container-items a i {
+    font-size: 2em;
+    
 }
